@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>landing page</title>
+</head>
+<body>
+    <section>
+    <header>
+        <div class="logo">
+            <img src="https://i.postimg.cc/7LFgncR4/fox.png" alt="logo">
+            <h2>Learner</h2>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Teachers</a>
+                </li>
+                <li>
+                    <a href="#">Courses</a>
+                </li>
+                <li>
+                    <a href="#">Scholorship</a>
+                </li>
+                <li>
+                    <a href="#">Pricing</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="sign-in-btn">
+            <a href="#" class="btn" href="">Sign up</a>
+            <div class="icon" onclick="menufun()">
+            <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <div class="grid-two">
+        <div class="col-1">
+            <h3>Special offers for first time customers</h3>
+            <h1>
+                Learn on your schedule from  any device <span><i class="fa-solid fa-arrow-trend-up"></i></span>
+            </h1>
+            <p>
+                The word learning is used routinely in discussions about teaching in higher education, so it’s important to clarify what we are referring to when we talk about learning. Educational researchers agree that learning is much deeper than memorization and information recall. Deep and long-lasting learning involves understanding, relating ideas and making connections between prior and new knowledge, independent and critical thinking and ability to transfer knowledge to new and different contexts.
+            </p>
+            <div class="btns">
+                <a href="#" class="btn-1">Get started</a>
+                <a href="#" class="btn-2">Discover</a>
+            </div>
+        </div>
+        <div class="col-2">
+            <img src="https://i.postimg.cc/nVv10FZP/st.jpg" alt="">
+        </div>
+    </div>
+</section>
+<section class="text">
+    <p>
+    <h1>About</h1>
+    The field of electronic learning (or “eLearning”) has gained increasing popularity, and for the right reasons. Over the last few years, intuitive online learning platforms has seen leaps in offering a complete learning experience that is fun, interactive, and ultimately engagin</p>
+    <img src="https://img.freepik.com/free-photo/digital-art-young-students-attending-school_23-2151065201.jpg?t=st=1705834753~exp=1705838353~hmac=2fb9f7ac4153501b7f96ab45748bfae4a64f7eff5b37d7d681f8640b7312b479&w=900" alt="" width="450" height="300">
+    <img src="https://img.freepik.com/free-vector/online-tutorials-concept_52683-37481.jpg?w=900&t=st=1705835108~exp=1705835708~hmac=01f934c34af938d9b33d78ac74e056c64c0a1880a3fb9c50d9e4a019c0a7f3e6" width="450" height="300">
+    <br><a href="#" class="btn-3">Read more</a>
+</section>
+<script>
+    let icon=document.querySelector(".icon");
+    let menu=document.querySelector("ul");
+    function menufun(){
+    if(menu.style.left=="-100%"){
+        menu.style.left="0%"
+    }else{
+        menu.style.left="-100%"
+    }
+    }
+</script>
+</body>
+
+</html>
